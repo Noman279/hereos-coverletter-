@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HireOS - AI Cover Letter Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>HireOS - Smart Cover Letter Generator</h1>
+    </header>
+    <main>
+        <form id="coverForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="position">Position Applying For:</label>
+            <input type="text" id="position" required>
+
+            <label for="bio">Your Background Summary:</label>
+            <textarea id="bio" required></textarea>
+
+            <button type="submit">Generate Cover Letter</button>
+        </form>
+        <div id="output">
+            <h2>Your AI Cover Letter</h2>
+            <p id="letterText"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Powered by HireOS | AI Career Tools</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
